@@ -130,7 +130,7 @@ public class ConsultationController {
             // replace this line of code with your implementation
             //throw new ResponseStatusException(HttpStatus.NOT_IMPLEMENTED,"Not implemented");
 
-            User loggedInUser = userLoggedInService.getLoggedInUser();
+            User loggedInUser = userLoggedInService.getLoggedInUser(); 
 
             return testRequestUpdateService.updateConsultation(id, testResult, loggedInUser);
 
